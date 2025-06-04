@@ -13,6 +13,10 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>QuickList - Nicolas de Souza</title>
 </head>
 <body>
@@ -45,6 +49,7 @@
                 <button>
                     <img src="./assets/trash-icon.svg" alt=" trash icon">
                 </button>
+                </div>
                 <div class="item">
                 <div>
                     <input type="checkbox" name="list" id="item-2">
@@ -56,6 +61,7 @@
                 <button>
                     <img src="./assets/trash-icon.svg" alt=" trash icon">
                 </button>
+                </div>
                 <div class="item">
                 <div>
                     <input type="checkbox" name="list" id="item-3">
@@ -69,6 +75,17 @@
                 </button>
             </div>
         </section>
+
+        <div class="warning">
+            <div>
+                <i class="ph ph warning-circle ph-fill"></i>
+
+                <span>O item foi removido da lista</span>
+            </div>
+            <button>
+                <i class="ph ph-x"></i>
+            </button>
+        </div>
     </main>
 </body>
 </html>
