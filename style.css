@@ -52,7 +52,6 @@ header {
         cursor: pointer;
     }
 
-
     h1 {
         font-size: 2.4rem;
         color: var(--content-primary);
@@ -89,5 +88,12 @@ main {
         &:focus {
             border: 2px solid var(--color-brand);
         }
+    }
+
+    button {
+        background: var(--color-brand);
+        border: none;
+        color: var(--always-white);
+        width: 180%;
     }
 }
