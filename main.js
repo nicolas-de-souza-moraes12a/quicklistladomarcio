@@ -48,6 +48,13 @@ function checkItem(itemName) {
 
 function removeItem(itemName) {
     const itemIndex = items.findIndex((item) => item.name === itemName)
+    const divWarning = docuument.querySelector(".warning")
+
+    divWarning.classList.remove("hide-warning")
+
+    setTimeout(() => {
+        divWarning.classList.add("hide-warning")
+    })
     
     if (itemIndex !== -1) {
         items.splice(itemIndex, 1)
